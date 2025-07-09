@@ -1,59 +1,109 @@
-# Portfolio
+# 💼 Paulo Victor - Portfolio
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.4.
+A modern and responsive portfolio built with Angular, showcasing my journey as a Software Engineer.
 
-## Development server
+## 🚀 About the Project
 
-To start a local development server, run:
+This is my personal portfolio where I present my passion for technology and my experience as a developer. The site features a clean and modern design with subtle particle animations that create a unique visual experience.
 
+### ✨ Key Features:
+- 🎨 Modern and responsive design
+- ⚡ Smooth animations with tsparticles
+- 📱 Fully responsive for all devices
+- 🔗 Direct links to GitHub and LinkedIn
+- 🖼️ Profile picture display
+- 🎯 Focus on user experience
+
+## 🛠️ Technologies Used
+
+- **Framework:** Angular 20
+- **Language:** TypeScript
+- **Styling:** SCSS + CSS3
+- **Animations:** @tsparticles/angular
+- **Build Tool:** Angular CLI
+- **Version Control:** Git
+
+## 📋 Prerequisites
+
+Before you begin, you need to have the following installed on your machine:
+
+- [Node.js](https://nodejs.org/) (version 20.19+ or 22.12+)
+- [npm](https://www.npmjs.com/) (usually comes with Node.js)
+- [Git](https://git-scm.com/)
+
+## 🔧 Installation and Setup
+
+### 1. Clone the repository
 ```bash
+git clone https://github.com/paulllo-victor/portfolio.git
+cd portfolio
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Run the project in development mode
+```bash
+npm start
+# or
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+### 4. Open in browser
+```
+http://localhost:4200
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 📦 Production Build
+
+To generate optimized files for production:
 
 ```bash
-ng generate --help
+npm run build
 ```
 
-## Building
+The files will be generated in the `dist/portfolio/browser/` folder and will be ready for deployment on any static file hosting service.
 
-To build the project run:
+### Deployment
+1. Copy all files from the `dist/portfolio/browser/` folder
+2. Upload to your hosting service
+3. Configure the server to redirect 404s to `index.html`
 
-```bash
-ng build
-```
+## 🎨 Customization
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+### Change personal information
+Edit the file `src/app/components/banner/banner.component.html`:
+- Change the title "Software Engineer"
+- Modify the personal description
+- Update GitHub and LinkedIn links
 
-## Running unit tests
+### Replace profile picture
+Replace the file `public/assets/images/profile.jpeg` with your photo.
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+### Customize colors and styles
+Modify the file `src/app/components/banner/banner.component.scss` to adjust:
+- Button colors
+- Typography
+- Spacing
+- Animations
 
-```bash
-ng test
-```
+### Configure particles
+Adjust settings in the file `src/app/components/banner/banner.component.ts`:
+- Number of particles
+- Movement speed
+- Colors and opacity
+- Interaction behaviors
 
-## Running end-to-end tests
+## 👨‍💻 About Me
 
-For end-to-end (e2e) testing, run:
+I'm passionate about technology with expertise in PHP, Laravel, and Node.js. I focus on creating scalable, efficient applications and enjoy working across the full stack to bring ideas to life.
 
-```bash
-ng e2e
-```
+### 🔗 Connect with me:
+- **GitHub:** [paulllo-victor](https://github.com/paulllo-victor)
+- **LinkedIn:** [Paulo Victor](https://www.linkedin.com/in/paulo-victor-22b615182)
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+⭐ **If this project helped you in any way, consider giving it a star!**
 
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Made with ❤️ by [Paulo Victor](https://github.com/paulllo-victor)
